@@ -1,0 +1,27 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.19.0
+2 info using node@v26.7.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:E:\ChatGPT\2026-09-10\build-x20\.npmrc
+5 silly config load:file:C:\Users\dell\.npmrc
+6 silly config load:file:C:\Users\dell\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:E:\ChatGPT\2026-09-10\build-x20\.npm-cache\_logs\2026-09-10T08_04_33_527Z-
+10 verbose logfile E:\ChatGPT\2026-09-10\build-x20\.npm-cache\_logs\2026-09-10T08_04_33_527Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2248146944 maxSize:562036736 maxEntrySize:281018368
+13 silly idealTree buildDeps
+14 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+15 silly reify moves {}
+16 warn install-scripts 2 packages have install scripts not yet covered by allowScripts:
+16 warn install-scripts   core-js@3.50.0 (postinstall: node -e "try{require('./postinstall')}catch(e){}")
+16 warn install-scripts   esbuild@0.21.5 (postinstall: node install.js)
+16 warn install-scripts
+16 warn install-scripts Run `npm install-scripts ls` to review, or `npm install-scripts approve <pkg>` to allow.
+17 verbose cwd E:\ChatGPT\2026-09-10\build-x20
+18 verbose os Windows_NT 10.0.19045
+19 verbose node v26.7.0
+20 verbose npm  v11.19.0
+21 verbose exit 0
+22 info ok

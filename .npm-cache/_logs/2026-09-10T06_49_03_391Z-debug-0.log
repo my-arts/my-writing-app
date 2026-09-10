@@ -1,0 +1,536 @@
+0 verbose cli [
+0 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+0 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+0 verbose cli   'install',
+0 verbose cli   '--cache',
+0 verbose cli   '.npm-cache',
+0 verbose cli   '--no-audit',
+0 verbose cli   '--no-fund'
+0 verbose cli ]
+1 info using npm@8.3.1
+2 info using node@v16.14.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc Completed in 5ms
+6 timing config:load:builtin Completed in 5ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:E:\ChatGPT\2026-09-10\build-x20\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 3ms
+11 timing config:load:file:C:\Users\dell\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Users\dell\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 1ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 19ms
+19 timing npm:load:configload Completed in 19ms
+20 timing npm:load:setTitle Completed in 0ms
+21 timing config:load:flatten Completed in 3ms
+22 timing npm:load:display Completed in 4ms
+23 verbose logfile E:\ChatGPT\2026-09-10\build-x20\.npm-cache\_logs\2026-09-10T06_49_03_391Z-debug-0.log
+24 timing npm:load:logFile Completed in 7ms
+25 timing npm:load:timers Completed in 1ms
+26 timing npm:load:configScope Completed in 0ms
+27 timing npm:load Completed in 33ms
+28 timing arborist:ctor Completed in 1ms
+29 timing idealTree:init Completed in 401ms
+30 timing idealTree:userRequests Completed in 0ms
+31 silly idealTree buildDeps
+32 silly fetch manifest @tiptap/extension-underline@^2.11.5
+33 timing arborist:ctor Completed in 1ms
+34 http fetch GET 200 https://registry.npmjs.org/@tiptap%2fextension-underline 1399ms (cache miss)
+35 silly fetch manifest @tiptap/core@^2.7.0
+36 http fetch GET 200 https://registry.npmjs.org/@tiptap%2fcore 19ms (cache hit)
+37 silly fetch manifest @tiptap/pm@^2.7.0
+38 http fetch GET 200 https://registry.npmjs.org/@tiptap%2fpm 13ms (cache hit)
+39 silly placeDep ROOT @tiptap/extension-underline@2.27.3 OK for: my-writing-app@1.0.0 want: ^2.11.5
+40 timing idealTree:#root Completed in 1457ms
+41 timing idealTree:node_modules/@tiptap/extension-underline Completed in 0ms
+42 timing idealTree:buildDeps Completed in 1459ms
+43 timing idealTree:fixDepFlags Completed in 6ms
+44 warn EBADENGINE Unsupported engine {
+44 warn EBADENGINE   package: '@eslint/config-array@0.21.2',
+44 warn EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+44 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+44 warn EBADENGINE }
+45 warn EBADENGINE Unsupported engine {
+45 warn EBADENGINE   package: '@eslint/config-helpers@0.4.2',
+45 warn EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+45 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+45 warn EBADENGINE }
+46 warn EBADENGINE Unsupported engine {
+46 warn EBADENGINE   package: '@eslint/core@0.17.0',
+46 warn EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+46 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+46 warn EBADENGINE }
+47 warn EBADENGINE Unsupported engine {
+47 warn EBADENGINE   package: '@eslint/eslintrc@3.3.7',
+47 warn EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+47 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+47 warn EBADENGINE }
+48 warn EBADENGINE Unsupported engine {
+48 warn EBADENGINE   package: '@eslint/js@9.39.5',
+48 warn EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+48 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+48 warn EBADENGINE }
+49 warn EBADENGINE Unsupported engine {
+49 warn EBADENGINE   package: '@eslint/object-schema@2.1.7',
+49 warn EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+49 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+49 warn EBADENGINE }
+50 warn EBADENGINE Unsupported engine {
+50 warn EBADENGINE   package: '@eslint/plugin-kit@0.4.1',
+50 warn EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+50 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+50 warn EBADENGINE }
+51 warn EBADENGINE Unsupported engine {
+51 warn EBADENGINE   package: '@humanfs/core@0.19.2',
+51 warn EBADENGINE   required: { node: '>=18.18.0' },
+51 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+51 warn EBADENGINE }
+52 warn EBADENGINE Unsupported engine {
+52 warn EBADENGINE   package: '@humanfs/node@0.16.8',
+52 warn EBADENGINE   required: { node: '>=18.18.0' },
+52 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+52 warn EBADENGINE }
+53 warn EBADENGINE Unsupported engine {
+53 warn EBADENGINE   package: '@humanfs/types@0.15.0',
+53 warn EBADENGINE   required: { node: '>=18.18.0' },
+53 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+53 warn EBADENGINE }
+54 warn EBADENGINE Unsupported engine {
+54 warn EBADENGINE   package: '@humanwhocodes/retry@0.4.3',
+54 warn EBADENGINE   required: { node: '>=18.18' },
+54 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+54 warn EBADENGINE }
+55 warn EBADENGINE Unsupported engine {
+55 warn EBADENGINE   package: '@isaacs/cliui@9.0.0',
+55 warn EBADENGINE   required: { node: '>=18' },
+55 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+55 warn EBADENGINE }
+56 warn EBADENGINE Unsupported engine {
+56 warn EBADENGINE   package: '@rollup/plugin-terser@1.0.0',
+56 warn EBADENGINE   required: { node: '>=20.0.0' },
+56 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+56 warn EBADENGINE }
+57 warn EBADENGINE Unsupported engine {
+57 warn EBADENGINE   package: 'eslint@9.39.5',
+57 warn EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+57 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+57 warn EBADENGINE }
+58 warn EBADENGINE Unsupported engine {
+58 warn EBADENGINE   package: 'eslint-scope@8.4.0',
+58 warn EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+58 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+58 warn EBADENGINE }
+59 warn EBADENGINE Unsupported engine {
+59 warn EBADENGINE   package: 'eslint-visitor-keys@4.2.1',
+59 warn EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+59 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+59 warn EBADENGINE }
+60 warn EBADENGINE Unsupported engine {
+60 warn EBADENGINE   package: 'espree@10.4.0',
+60 warn EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+60 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+60 warn EBADENGINE }
+61 warn EBADENGINE Unsupported engine {
+61 warn EBADENGINE   package: 'eta@4.6.0',
+61 warn EBADENGINE   required: { node: '>=20' },
+61 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+61 warn EBADENGINE }
+62 warn EBADENGINE Unsupported engine {
+62 warn EBADENGINE   package: 'glob@11.1.0',
+62 warn EBADENGINE   required: { node: '20 || >=22' },
+62 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+62 warn EBADENGINE }
+63 warn EBADENGINE Unsupported engine {
+63 warn EBADENGINE   package: 'balanced-match@4.0.4',
+63 warn EBADENGINE   required: { node: '18 || 20 || >=22' },
+63 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+63 warn EBADENGINE }
+64 warn EBADENGINE Unsupported engine {
+64 warn EBADENGINE   package: 'brace-expansion@5.0.9',
+64 warn EBADENGINE   required: { node: '20 || >=22' },
+64 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+64 warn EBADENGINE }
+65 warn EBADENGINE Unsupported engine {
+65 warn EBADENGINE   package: 'minimatch@10.2.6',
+65 warn EBADENGINE   required: { node: '18 || 20 || >=22' },
+65 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+65 warn EBADENGINE }
+66 warn EBADENGINE Unsupported engine {
+66 warn EBADENGINE   package: 'globals@14.0.0',
+66 warn EBADENGINE   required: { node: '>=18' },
+66 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+66 warn EBADENGINE }
+67 warn EBADENGINE Unsupported engine {
+67 warn EBADENGINE   package: 'jackspeak@4.2.3',
+67 warn EBADENGINE   required: { node: '20 || >=22' },
+67 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+67 warn EBADENGINE }
+68 warn EBADENGINE Unsupported engine {
+68 warn EBADENGINE   package: 'nanoid@5.1.16',
+68 warn EBADENGINE   required: { node: '^18 || >=20' },
+68 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+68 warn EBADENGINE }
+69 warn EBADENGINE Unsupported engine {
+69 warn EBADENGINE   package: 'node-releases@2.0.55',
+69 warn EBADENGINE   required: { node: '>=18' },
+69 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+69 warn EBADENGINE }
+70 warn EBADENGINE Unsupported engine {
+70 warn EBADENGINE   package: 'path-scurry@2.0.2',
+70 warn EBADENGINE   required: { node: '18 || 20 || >=22' },
+70 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+70 warn EBADENGINE }
+71 warn EBADENGINE Unsupported engine {
+71 warn EBADENGINE   package: 'lru-cache@11.5.2',
+71 warn EBADENGINE   required: { node: '20 || >=22' },
+71 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+71 warn EBADENGINE }
+72 warn EBADENGINE Unsupported engine {
+72 warn EBADENGINE   package: 'rollup@4.63.1',
+72 warn EBADENGINE   required: { node: '>=18.0.0', npm: '>=8.0.0' },
+72 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+72 warn EBADENGINE }
+73 warn EBADENGINE Unsupported engine {
+73 warn EBADENGINE   package: 'serialize-javascript@7.1.1',
+73 warn EBADENGINE   required: { node: '>=20.0.0' },
+73 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+73 warn EBADENGINE }
+74 warn EBADENGINE Unsupported engine {
+74 warn EBADENGINE   package: 'smob@1.6.2',
+74 warn EBADENGINE   required: { node: '>=20.0.0' },
+74 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+74 warn EBADENGINE }
+75 warn EBADENGINE Unsupported engine {
+75 warn EBADENGINE   package: 'tinypool@1.1.1',
+75 warn EBADENGINE   required: { node: '^18.0.0 || >=20.0.0' },
+75 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+75 warn EBADENGINE }
+76 warn EBADENGINE Unsupported engine {
+76 warn EBADENGINE   package: 'vite@5.4.21',
+76 warn EBADENGINE   required: { node: '^18.0.0 || >=20.0.0' },
+76 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+76 warn EBADENGINE }
+77 warn EBADENGINE Unsupported engine {
+77 warn EBADENGINE   package: 'vite-node@2.1.9',
+77 warn EBADENGINE   required: { node: '^18.0.0 || >=20.0.0' },
+77 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+77 warn EBADENGINE }
+78 warn EBADENGINE Unsupported engine {
+78 warn EBADENGINE   package: 'vitest@2.1.9',
+78 warn EBADENGINE   required: { node: '^18.0.0 || >=20.0.0' },
+78 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+78 warn EBADENGINE }
+79 warn EBADENGINE Unsupported engine {
+79 warn EBADENGINE   package: 'workbox-build@7.4.1',
+79 warn EBADENGINE   required: { node: '>=20.0.0' },
+79 warn EBADENGINE   current: { node: 'v16.14.0', npm: '8.3.1' }
+79 warn EBADENGINE }
+80 timing idealTree Completed in 1899ms
+81 timing reify:loadTrees Completed in 1899ms
+82 timing reify:diffTrees Completed in 28ms
+83 silly reify moves {}
+84 timing reify:retireShallow Completed in 1ms
+85 timing reify:createSparse Completed in 17ms
+86 timing reify:loadBundles Completed in 0ms
+87 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\fsevents
+88 silly reify mark deleted [ 'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\fsevents' ]
+89 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@rollup\rollup-win32-ia32-msvc
+90 silly reify mark deleted [
+90 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@rollup\\rollup-win32-ia32-msvc'
+90 silly reify ]
+91 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@rollup\rollup-win32-arm64-msvc
+92 silly reify mark deleted [
+92 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@rollup\\rollup-win32-arm64-msvc'
+92 silly reify ]
+93 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@rollup\rollup-openharmony-arm64
+94 silly reify mark deleted [
+94 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@rollup\\rollup-openharmony-arm64'
+94 silly reify ]
+95 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@rollup\rollup-openbsd-x64
+96 silly reify mark deleted [
+96 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@rollup\\rollup-openbsd-x64'
+96 silly reify ]
+97 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@rollup\rollup-linux-x64-musl
+98 silly reify mark deleted [
+98 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@rollup\\rollup-linux-x64-musl'
+98 silly reify ]
+99 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@rollup\rollup-linux-x64-gnu
+100 silly reify mark deleted [
+100 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@rollup\\rollup-linux-x64-gnu'
+100 silly reify ]
+101 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@rollup\rollup-linux-s390x-gnu
+102 silly reify mark deleted [
+102 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@rollup\\rollup-linux-s390x-gnu'
+102 silly reify ]
+103 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@rollup\rollup-linux-riscv64-musl
+104 silly reify mark deleted [
+104 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@rollup\\rollup-linux-riscv64-musl'
+104 silly reify ]
+105 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@rollup\rollup-linux-riscv64-gnu
+106 silly reify mark deleted [
+106 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@rollup\\rollup-linux-riscv64-gnu'
+106 silly reify ]
+107 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@rollup\rollup-linux-ppc64-musl
+108 silly reify mark deleted [
+108 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@rollup\\rollup-linux-ppc64-musl'
+108 silly reify ]
+109 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@rollup\rollup-linux-ppc64-gnu
+110 silly reify mark deleted [
+110 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@rollup\\rollup-linux-ppc64-gnu'
+110 silly reify ]
+111 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@rollup\rollup-linux-loong64-musl
+112 silly reify mark deleted [
+112 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@rollup\\rollup-linux-loong64-musl'
+112 silly reify ]
+113 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@rollup\rollup-linux-loong64-gnu
+114 silly reify mark deleted [
+114 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@rollup\\rollup-linux-loong64-gnu'
+114 silly reify ]
+115 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@rollup\rollup-linux-arm64-musl
+116 silly reify mark deleted [
+116 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@rollup\\rollup-linux-arm64-musl'
+116 silly reify ]
+117 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@rollup\rollup-linux-arm64-gnu
+118 silly reify mark deleted [
+118 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@rollup\\rollup-linux-arm64-gnu'
+118 silly reify ]
+119 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@rollup\rollup-linux-arm-musleabihf
+120 silly reify mark deleted [
+120 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@rollup\\rollup-linux-arm-musleabihf'
+120 silly reify ]
+121 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@rollup\rollup-linux-arm-gnueabihf
+122 silly reify mark deleted [
+122 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@rollup\\rollup-linux-arm-gnueabihf'
+122 silly reify ]
+123 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@rollup\rollup-freebsd-x64
+124 silly reify mark deleted [
+124 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@rollup\\rollup-freebsd-x64'
+124 silly reify ]
+125 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@rollup\rollup-freebsd-arm64
+126 silly reify mark deleted [
+126 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@rollup\\rollup-freebsd-arm64'
+126 silly reify ]
+127 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@rollup\rollup-darwin-x64
+128 silly reify mark deleted [
+128 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@rollup\\rollup-darwin-x64'
+128 silly reify ]
+129 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@rollup\rollup-darwin-arm64
+130 silly reify mark deleted [
+130 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@rollup\\rollup-darwin-arm64'
+130 silly reify ]
+131 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@rollup\rollup-android-arm64
+132 silly reify mark deleted [
+132 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@rollup\\rollup-android-arm64'
+132 silly reify ]
+133 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@rollup\rollup-android-arm-eabi
+134 silly reify mark deleted [
+134 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@rollup\\rollup-android-arm-eabi'
+134 silly reify ]
+135 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@napi-rs\lzma-linux-x64-gnu
+136 silly reify mark deleted [
+136 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@napi-rs\\lzma-linux-x64-gnu'
+136 silly reify ]
+137 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@esbuild\win32-ia32
+138 silly reify mark deleted [
+138 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@esbuild\\win32-ia32'
+138 silly reify ]
+139 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@esbuild\win32-arm64
+140 silly reify mark deleted [
+140 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@esbuild\\win32-arm64'
+140 silly reify ]
+141 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@esbuild\sunos-x64
+142 silly reify mark deleted [
+142 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@esbuild\\sunos-x64'
+142 silly reify ]
+143 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@esbuild\openbsd-x64
+144 silly reify mark deleted [
+144 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@esbuild\\openbsd-x64'
+144 silly reify ]
+145 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@esbuild\netbsd-x64
+146 silly reify mark deleted [
+146 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@esbuild\\netbsd-x64'
+146 silly reify ]
+147 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@esbuild\linux-x64
+148 silly reify mark deleted [
+148 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@esbuild\\linux-x64'
+148 silly reify ]
+149 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@esbuild\linux-s390x
+150 silly reify mark deleted [
+150 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@esbuild\\linux-s390x'
+150 silly reify ]
+151 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@esbuild\linux-riscv64
+152 silly reify mark deleted [
+152 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@esbuild\\linux-riscv64'
+152 silly reify ]
+153 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@esbuild\linux-ppc64
+154 silly reify mark deleted [
+154 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@esbuild\\linux-ppc64'
+154 silly reify ]
+155 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@esbuild\linux-mips64el
+156 silly reify mark deleted [
+156 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@esbuild\\linux-mips64el'
+156 silly reify ]
+157 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@esbuild\linux-loong64
+158 silly reify mark deleted [
+158 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@esbuild\\linux-loong64'
+158 silly reify ]
+159 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@esbuild\linux-ia32
+160 silly reify mark deleted [
+160 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@esbuild\\linux-ia32'
+160 silly reify ]
+161 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@esbuild\linux-arm64
+162 silly reify mark deleted [
+162 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@esbuild\\linux-arm64'
+162 silly reify ]
+163 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@esbuild\linux-arm
+164 silly reify mark deleted [
+164 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@esbuild\\linux-arm'
+164 silly reify ]
+165 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@esbuild\freebsd-x64
+166 silly reify mark deleted [
+166 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@esbuild\\freebsd-x64'
+166 silly reify ]
+167 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@esbuild\freebsd-arm64
+168 silly reify mark deleted [
+168 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@esbuild\\freebsd-arm64'
+168 silly reify ]
+169 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@esbuild\darwin-x64
+170 silly reify mark deleted [
+170 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@esbuild\\darwin-x64'
+170 silly reify ]
+171 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@esbuild\darwin-arm64
+172 silly reify mark deleted [
+172 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@esbuild\\darwin-arm64'
+172 silly reify ]
+173 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@esbuild\android-x64
+174 silly reify mark deleted [
+174 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@esbuild\\android-x64'
+174 silly reify ]
+175 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@esbuild\android-arm64
+176 silly reify mark deleted [
+176 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@esbuild\\android-arm64'
+176 silly reify ]
+177 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@esbuild\android-arm
+178 silly reify mark deleted [
+178 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@esbuild\\android-arm'
+178 silly reify ]
+179 verbose reify failed optional dependency E:\ChatGPT\2026-09-10\build-x20\node_modules\@esbuild\aix-ppc64
+180 silly reify mark deleted [
+180 silly reify   'E:\\ChatGPT\\2026-09-10\\build-x20\\node_modules\\@esbuild\\aix-ppc64'
+180 silly reify ]
+181 timing reifyNode:node_modules/fsevents Completed in 11ms
+182 timing reifyNode:node_modules/@rollup/rollup-win32-ia32-msvc Completed in 11ms
+183 timing reifyNode:node_modules/@rollup/rollup-win32-arm64-msvc Completed in 11ms
+184 timing reifyNode:node_modules/@rollup/rollup-openharmony-arm64 Completed in 11ms
+185 timing reifyNode:node_modules/@rollup/rollup-openbsd-x64 Completed in 11ms
+186 timing reifyNode:node_modules/@rollup/rollup-linux-x64-musl Completed in 11ms
+187 timing reifyNode:node_modules/@rollup/rollup-linux-x64-gnu Completed in 11ms
+188 timing reifyNode:node_modules/@rollup/rollup-linux-s390x-gnu Completed in 11ms
+189 timing reifyNode:node_modules/@rollup/rollup-linux-riscv64-musl Completed in 11ms
+190 timing reifyNode:node_modules/@rollup/rollup-linux-riscv64-gnu Completed in 11ms
+191 timing reifyNode:node_modules/@rollup/rollup-linux-ppc64-musl Completed in 11ms
+192 timing reifyNode:node_modules/@rollup/rollup-linux-ppc64-gnu Completed in 11ms
+193 timing reifyNode:node_modules/@rollup/rollup-linux-loong64-musl Completed in 11ms
+194 timing reifyNode:node_modules/@rollup/rollup-linux-loong64-gnu Completed in 11ms
+195 timing reifyNode:node_modules/@rollup/rollup-linux-arm64-musl Completed in 11ms
+196 timing reifyNode:node_modules/@rollup/rollup-linux-arm64-gnu Completed in 11ms
+197 timing reifyNode:node_modules/@rollup/rollup-linux-arm-musleabihf Completed in 11ms
+198 timing reifyNode:node_modules/@rollup/rollup-linux-arm-gnueabihf Completed in 11ms
+199 timing reifyNode:node_modules/@rollup/rollup-freebsd-x64 Completed in 11ms
+200 timing reifyNode:node_modules/@rollup/rollup-freebsd-arm64 Completed in 11ms
+201 timing reifyNode:node_modules/@rollup/rollup-darwin-x64 Completed in 11ms
+202 timing reifyNode:node_modules/@rollup/rollup-darwin-arm64 Completed in 11ms
+203 timing reifyNode:node_modules/@rollup/rollup-android-arm64 Completed in 11ms
+204 timing reifyNode:node_modules/@rollup/rollup-android-arm-eabi Completed in 11ms
+205 timing reifyNode:node_modules/@napi-rs/lzma-linux-x64-gnu Completed in 11ms
+206 timing reifyNode:node_modules/@esbuild/win32-ia32 Completed in 11ms
+207 timing reifyNode:node_modules/@esbuild/win32-arm64 Completed in 11ms
+208 timing reifyNode:node_modules/@esbuild/sunos-x64 Completed in 11ms
+209 timing reifyNode:node_modules/@esbuild/openbsd-x64 Completed in 10ms
+210 timing reifyNode:node_modules/@esbuild/netbsd-x64 Completed in 10ms
+211 timing reifyNode:node_modules/@esbuild/linux-x64 Completed in 10ms
+212 timing reifyNode:node_modules/@esbuild/linux-s390x Completed in 10ms
+213 timing reifyNode:node_modules/@esbuild/linux-riscv64 Completed in 10ms
+214 timing reifyNode:node_modules/@esbuild/linux-ppc64 Completed in 11ms
+215 timing reifyNode:node_modules/@esbuild/linux-mips64el Completed in 11ms
+216 timing reifyNode:node_modules/@esbuild/linux-loong64 Completed in 11ms
+217 timing reifyNode:node_modules/@esbuild/linux-ia32 Completed in 11ms
+218 timing reifyNode:node_modules/@esbuild/linux-arm64 Completed in 11ms
+219 timing reifyNode:node_modules/@esbuild/linux-arm Completed in 11ms
+220 timing reifyNode:node_modules/@esbuild/freebsd-x64 Completed in 11ms
+221 timing reifyNode:node_modules/@esbuild/freebsd-arm64 Completed in 11ms
+222 timing reifyNode:node_modules/@esbuild/darwin-x64 Completed in 11ms
+223 timing reifyNode:node_modules/@esbuild/darwin-arm64 Completed in 11ms
+224 timing reifyNode:node_modules/@esbuild/android-x64 Completed in 11ms
+225 timing reifyNode:node_modules/@esbuild/android-arm64 Completed in 11ms
+226 timing reifyNode:node_modules/@esbuild/android-arm Completed in 11ms
+227 timing reifyNode:node_modules/@esbuild/aix-ppc64 Completed in 10ms
+228 silly tarball no local data for @tiptap/extension-underline@https://registry.npmjs.org/@tiptap/extension-underline/-/extension-underline-2.27.3.tgz. Extracting by manifest.
+229 http fetch GET 200 https://registry.npmjs.org/@tiptap/extension-underline/-/extension-underline-2.27.3.tgz 382ms (cache miss)
+230 timing reifyNode:node_modules/@tiptap/extension-underline Completed in 399ms
+231 timing reify:unpack Completed in 399ms
+232 timing reify:unretire Completed in 0ms
+233 timing build:queue Completed in 2ms
+234 timing build:deps Completed in 2ms
+235 timing build Completed in 2ms
+236 timing reify:build Completed in 3ms
+237 timing reify:trash Completed in 8ms
+238 timing reify:save Completed in 55ms
+239 timing reify Completed in 2437ms
+240 silly ADD node_modules/@tiptap/extension-underline
+241 silly ADD
+242 silly ADD
+243 silly ADD
+244 silly ADD
+245 silly ADD
+246 silly ADD
+247 silly ADD
+248 silly ADD
+249 silly ADD
+250 silly ADD
+251 silly ADD
+252 silly ADD
+253 silly ADD
+254 silly ADD
+255 silly ADD
+256 silly ADD
+257 silly ADD
+258 silly ADD
+259 silly ADD
+260 silly ADD
+261 silly ADD
+262 silly ADD
+263 silly ADD
+264 silly ADD
+265 silly ADD
+266 silly ADD
+267 silly ADD
+268 silly ADD
+269 silly ADD
+270 silly ADD
+271 silly ADD
+272 silly ADD
+273 silly ADD
+274 silly ADD
+275 silly ADD
+276 silly ADD
+277 silly ADD
+278 silly ADD
+279 silly ADD
+280 silly ADD
+281 silly ADD
+282 silly ADD
+283 silly ADD
+284 silly ADD
+285 silly ADD
+286 silly ADD
+287 silly ADD
+288 timing command:install Completed in 2448ms
+289 verbose exit 0
+290 timing npm Completed in 3064ms
+291 info ok
